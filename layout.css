@@ -1,0 +1,138 @@
+html {
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+}
+
+body {
+    background-color:rgb(234, 236, 237);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 36px 8px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 8px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.nav-top-home {
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.header-logo {
+    max-width: 70px;
+}
+
+.nav-top {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-top-link {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+.active, .nav-top-link:hover {
+    text-decoration: underline;
+}
+
+.main {
+    max-width: 764px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+.card-home {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 8px 0;
+    padding: 24px;
+    background-color: white;
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 0 5px 5px 0 rgba(253, 93, 208, 0.14), /* produce shadow out bottom */
+                0 1px 50px 0 rgba(253, 93, 208,.12), /* produce glow around whole card */
+                0 2px 4px -1px rgba(253, 93, 208,.2); /* produce secondary bottom glow */
+}
+
+.card-vote {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 8px 0;
+    padding: 24px;
+    background-color: white;
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 0 5px 5px 0 rgba(93, 253, 93, 0.14), /* produce shadow out bottom */
+                0 1px 50px 0 rgba(93, 253, 93, .12), /* produce glow around whole card */
+                0 2px 4px -1px rgba(93, 253, 93, .2); /* produce secondary bottom glow */
+}
+
+.card-pics {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 8px 0;
+    padding: 24px;
+    background-color: white;
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 0 5px 5px 0 rgba(93, 184, 253, 0.14), /* produce shadow out bottom */
+                0 1px 50px 0 rgba(93, 184, 253,.12), /* produce glow around whole card */
+                0 2px 4px -1px rgba(93, 184, 253,.2); /* produce secondary bottom glow */
+}
+
+.card-resources {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 8px 0;
+    padding: 24px;
+    background-color: white;
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 0 5px 5px 0 rgba(255, 87, 51, 0.14), /* produce shadow out bottom */
+                0 1px 50px 0 rgba(255, 87, 51,.12), /* produce glow around whole card */
+                0 2px 4px -1px rgba(255, 87, 51,.2); /* produce secondary bottom glow */
+}
+
+
+.img-berly-home {
+    max-width: 200px;
+    float: left;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.cat-bottom-box {
+    display: flex;
+    justify-content:flex-end;
+}
+
+.cat-bottom {
+    max-width: 70px;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-bottom-link {
+    color: black;
+}
