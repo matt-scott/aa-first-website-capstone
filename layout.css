@@ -67,6 +67,7 @@ footer {
     flex-direction: column;
     margin: 0px 8px 0;
     padding: 24px;
+    border-radius: 5px;
     background-color: white;
     /* offset-x | offset-y | blur-radius | spread-radius | color */
     box-shadow: 0 5px 5px 0 rgba(253, 93, 208, 0.14), /* produce shadow out bottom */
@@ -111,9 +112,13 @@ footer {
 }
 
 
-.img-berly-home {
+.img-home-main {
+    border-radius: 5px;
+}
+
+.img-home-paragraph {
     max-width: 200px;
-    float: left;
+    float: right;
     margin: 5px;
     border-radius: 5px;
 }
