@@ -10,18 +10,17 @@ Page 1 – Berly introduction
         Journey to Chicago
         Life in Chicago
     1 image
-Page 2
+Page 2 - Vote on a Berly adventure
     Navigation Bar linking to all 4 pages
     H1
-    Vote on a Berly Adventure
     HTML form with a minimum of:
-    1 fieldset
-    3 inputs
-    2 text
-    1 checkbox
-    1 textarea
+        1 fieldset
+        3 inputs
+            2 text
+            1 checkbox
+        1 textarea
     Appropriate labels for the above
-    1 button
+        1 button
 Page 3
     Navigation Bar linking to all 4 pages
     1 header using H1

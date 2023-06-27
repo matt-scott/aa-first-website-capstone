@@ -1,0 +1,76 @@
+label {
+    font-size: small;
+}
+
+legend {
+
+    margin-bottom: 5px;
+    font-size: medium;
+    padding: 2px 10px;
+}
+
+textarea {
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    min-height: 50px;
+}
+
+input {
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+}
+
+.body-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border: 1px solid;
+    border-radius: 5px;
+    gap: 5px;
+    padding: 10px 20px 20px 20px;
+    /*box-shadow: 10px 10px 2px -2px rgb(255, 169, 221);*/
+}
+
+.form-text {
+    text-align: left;
+    font-size: small;
+    width: 100%;
+}
+
+.p {
+    margin: 5px 0;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+}
+
+.flex-sa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-c {
+    display: flex;
+    flex-direction: column;
+    margin: 7px 0;
+    gap: 5px;
+}
+
+.button-set {
+    border-radius: 5px;
+    border: 1px solid;
+    margin-top: 10px;
+}
+
+.berly{
+    border-radius: 5px;
+    height: 405px;
+    margin-top: 10px;
+}

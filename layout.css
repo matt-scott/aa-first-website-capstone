@@ -1,3 +1,5 @@
+@import "layout-form.css";
+
 html {
     font-family: Roboto,Helvetica,Arial,sans-serif;
 }
@@ -80,6 +82,7 @@ footer {
     flex-direction: column;
     margin: 0px 8px 0;
     padding: 24px;
+    border-radius: 5px;
     background-color: white;
     /* offset-x | offset-y | blur-radius | spread-radius | color */
     box-shadow: 0 5px 5px 0 rgba(93, 253, 93, 0.14), /* produce shadow out bottom */
@@ -92,6 +95,7 @@ footer {
     flex-direction: column;
     margin: 0px 8px 0;
     padding: 24px;
+    border-radius: 5px;
     background-color: white;
     /* offset-x | offset-y | blur-radius | spread-radius | color */
     box-shadow: 0 5px 5px 0 rgba(93, 184, 253, 0.14), /* produce shadow out bottom */
@@ -104,6 +108,7 @@ footer {
     flex-direction: column;
     margin: 0px 8px 0;
     padding: 24px;
+    border-radius: 5px;
     background-color: white;
     /* offset-x | offset-y | blur-radius | spread-radius | color */
     box-shadow: 0 5px 5px 0 rgba(255, 87, 51, 0.14), /* produce shadow out bottom */
@@ -126,6 +131,7 @@ footer {
 .cat-bottom-box {
     display: flex;
     justify-content:flex-end;
+    margin-top: 20px;
 }
 
 .cat-bottom {

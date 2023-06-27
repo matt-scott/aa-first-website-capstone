@@ -26,22 +26,66 @@
 
             <!-- Inside body card -->
             <div class="card-vote">
-                <h1>Berly - A Cat in Portraiture</h1>
+                <h1>Vote on Berly Books!</h1>
 
-                <img src="berly-pics/berly-main-1e.jpg" alt="Berly playing in the leaves" class="img-home-main">
+                <p>What adventures would you like to see Berly go on in his next children's book? Vote below to have a say!</p>
+
+                <div class="body-div">
+                    <form action="/form-handling-url" method="post">
+                        <fieldset class="form-wrapper">
+                            <legend>Vote</legend>
+
+                            <div class="flex-sa">
+                                <label for="firstName" class="form-text">First name:</label>
+                                <input type="text" id="firstName" name="first_name">
+                            </div>
+
+                            <div class="flex-sa">
+                                <label for="lastName" class="form-text">Last name:</label>
+                                <input type="text" id="lastName" name="last_name">
+                            </div>
+
+                            <div class="flex-sa">
+                                <label for="email" class="form-text">Email:</label>
+                                <input type="email" id="email" name="email_address">
+                            </div>
+
+                            <div class="flex-c">
+                                <p class="form-text p">Which adventures would you like to see Berly go on in future children's book?</p>
+
+                                <div class="flex-center">
+                                    <input type="checkbox" id="adventure1" name="adventure_one">
+                                    <label for="adventure1">Berly explores his garden</label>
+                                </div>
+
+                                <div class="flex-center">
+                                    <input type="checkbox" id="adventure2" name="adventure_2">
+                                    <label for="avdenture2">Berly does yoga</label>
+                                </div>
+
+                                <div class="flex-center">
+                                    <input type="checkbox" id="avdenture3" name="adventure_3">
+                                    <label for="avdenture3">Berly goes camping</label>
+                                </div>
+                            </div>
+
+                            <div class="flex-c">
+                                <label for="comments">Comments / Additional Berly Book ideas</label>
+                                <textarea id="comments" name="user_comments"></textarea>
+                            </div>
+
+                            <div class="flex-center">
+                                <input type="checkbox" id="newsletter" name="newsletter_box">
+                                <label for="newsletter">Send me Berly Book updates</label>
+                            </div>
+
+                            <button class=button-set type="submit">Submit</button>
+                        </fieldset>
+                    </form>
 
 
-                <div>
-                    <h2>Early life</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <img src="berly-pics/berly-home.jpg" alt="Berly sleeping on a puzzle" class="img-home-paragraph">
+                    <img class="berly" src="berly-pics/berly-form1.jpg" alt="Berly Cat" title="Berly Cat">
 
-                    <h2>Journey to chicago</h2>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-                    <h2>Present day</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
 
                 <!-- Bottom right cat image -->
