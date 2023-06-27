@@ -1,0 +1,16 @@
+.card-resources {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 8px 0;
+    padding: 24px;
+    border-radius: 5px;
+    background-color: white;
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 0 5px 5px 0 rgba(255, 87, 51, 0.14), /* produce shadow out bottom */
+                0 1px 50px 0 rgba(255, 87, 51,.12), /* produce glow around whole card */
+                0 2px 4px -1px rgba(255, 87, 51,.2); /* produce secondary bottom glow */
+}
+
+.resource-link {
+    color: black;
+}

@@ -1,0 +1,24 @@
+.card-pics {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 8px 0;
+    padding: 24px;
+    border-radius: 5px;
+    background-color: white;
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 0 5px 5px 0 rgba(93, 184, 253, 0.14), /* produce shadow out bottom */
+                0 1px 50px 0 rgba(93, 184, 253,.12), /* produce glow around whole card */
+                0 2px 4px -1px rgba(93, 184, 253,.2); /* produce secondary bottom glow */
+}
+
+.pic-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+
+.pic-grid-img {
+    border-radius: 5px;
+    object-fit: contain;
+    width: 100%;
+}

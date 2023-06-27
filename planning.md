@@ -21,15 +21,13 @@ Page 2 - Vote on a Berly adventure
         1 textarea
     Appropriate labels for the above
         1 button
-Page 3
+Page 3 - Resources for Rescue Cats
     Navigation Bar linking to all 4 pages
     1 header using H1
-    Resources for Rescue Cats
     1 ordered or unordered list of links to 5 other websites
-Page 4
+Page 4 - Berly – Up Close and Personal
     Navigation Bar linking to all 4 pages
     1 header using H1
-    Berly – Up Close and Personal
     6 images displayed 3 wide and 2 down
     A label for each image
     Clicking on the image opens the source of that image in a new window
