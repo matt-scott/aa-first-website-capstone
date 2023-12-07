@@ -5,4 +5,4 @@ This is a capstone project for App Academy Open. The project demonstrates HTML a
 
 See PDF "Capstone-Project-Building-Your-First-Website" for project details.
 
-Deployment via Netlify. See website at
+Deployment via Netlify. See portfolio page at matt-scott.github.io
